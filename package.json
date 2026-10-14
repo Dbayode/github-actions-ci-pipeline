@@ -1,0 +1,23 @@
+{
+  "name": "github-actions-ci-pipeline",
+  "version": "1.0.0",
+  "description": "A Node.js application demonstrating Continuous Integration using GitHub Actions",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "node --check app.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "devops",
+    "github-actions",
+    "continuous-integration",
+    "nodejs",
+    "ci-pipeline"
+  ],
+  "author": "Daniel Bayode",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
